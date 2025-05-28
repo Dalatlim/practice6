@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ddd;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 33.33333333333333%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.66666666666667%;
+}
+
+.news {
+  margin: 50px 100px;
+}
+
+.news .news-card .image {
+  height: 365px;
+  background-image: url(/assets/images/IISc-grant_card_hz_tab_364x362.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.news .news-card .image .card {
+  position: absolute;
+  width: 140px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 8px 0;
+  background-color: rgba(255, 255, 255, 0.744);
+  top: -25px;
+  left: -20px;
+}
+
+.news .news-card .card-left {
+  height: 365px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 0 20px;
+  position: relative;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 20px;
+  left: -10px;
+}
+
+.news .news-card .card-left {
+  margin-bottom: 30px;
+}
+
+.news .news-card .card-left .press {
+  color: #1BA2F5;
+  padding: 30px 0;
+}
+
+.news .news-card .card-left h3 {
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+.news .news-card .card-left .text {
+  padding: 10px 0px 0px 40px;
+}
+
+.news .news-card .card-left .text p {
+  border-left: 2px solid orange;
+  padding-left: 10px;
+}
+
+.news .news-card .card-right {
+  height: 365px;
+  background-color:#1BA2F5;
+  margin-left: 20px;
+  padding: 0 20px;
+  color: white;
+}
+
+.news .news-card .card-right .fact {
+  padding: 20px 0;
+}
+
+.news .news-card .card-right .text {
+  padding: 30px 0px 0px 50px;
+}
+
+.news .news-card .card-right .text p {
+  border-left: 2px solid orangered;
+  padding-left: 10px;
+}
+
+.news .news-card .text span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.news .news-card .image-card-left {
+  height: 365px;
+  background-image: url(/assets/images/aside-left.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.news .news-card .image-card-left .text {
+  height: 365px;
+  background-color: #1847ac86;
+  color: white;
+  padding: 100px 40px 70px;
+}
+
+.news .news-card .image-card-left .text p {
+  border-left: 2px solid;
+  padding-left: 10px;
+}
+
+.news .news-card .card-color {
+  height: 365px;
+  background-image: linear-gradient(
+    to right,
+    rgb(230, 105, 9),
+    rgb(233, 137, 153)
+  );
+}
+
+.news .news-card .card-color .text {
+  padding: 100px 50px;
+}
+
+.news .news-card .card-color .text p {
+  color: white;
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+
+.news .news-card .image-card-right {
+  height: 365px;
+  background-image: url(/assets/images/aside-right.jpg);
+  background-size: cover;
+}
